@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="19px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="1 1" imageRepeat="None" width="19" height="20" patternTransform="translate(0 -0,5)">
+      <image preserveAspectRatio="none" style="overflow:visible" width="19" height="20" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMASURBVHgBjVTPTxNBFP5mdlsKVrpBEU3BgF6IJro1gURjtI0ng4l48So9ctKbFxPxHzAmHj0A8appNcR4hIsHgcDFYAJJFxOVBsVFoD/ozoxvprRpSAXe5u3PN9/73vveLEMTS2ZyDsBHdiQuK6lcxeAwBR9MeYzh3VAHsmOpPn//Orb/xcCb1YcKcow+OfiPEaDXGbEmPgz1PGsK5hIbqyIySrEko2jtetUhlg0slV68V2Vp11HLlUygUAXSORQVyngdkDUHHraFqSClH7g+XXi99LRSEUklJaRxAaUUBF31s76veRNLXn+bGzMJ+8eXekOWzMmGhnDOTf2MmzNqbGvlR0McO4Gqx5P5VG4fMSsld4UgFsRIZybXbMyzVHvM9DeJSx1hPL/WianbccTbrEZ2TjvwyKYEDxgFahaMZkCZq07IISiJ29mKwdNR3D/fDiUkImELZVr0bausqVcVJHYFxW7aUiiXIMBqBwHGWmzcOefgRjwK92SbSb2+WUQrAYUsjsX1oqlCk1DMNAJEx7Wp2U4NJGJzPB48g1tnY9QXS1eMciVA3i+iK9ZKrGxYxGJ5s2zKr6lc7SkcmxTySSeHk7DFisDUyoaR+MqpKFS5QiUJ9Jw4ZlhpYThxmM8XTAvqQOQtxNimO48ouLrB2mbz25hd28bFjlY8SXShm8o8FrEJRBGYZmIhR8w0mFHdgJGMkIu8zWIzjbKYeaLjy0YRW7sB5lY38PnH3/rCX8UAK37BxNSVNqpjhsdarGyzSdTBn/I7eL+6iZGPK3i58NO8X/pNQBpEVscl0GNFLoPyC6OsOzGf+VMSwzjE4sdb0B0NY26tYHY1t3hVBI6J5XQibfamr3gaEC7d9h4E9p1mS3tt7+qWUOlemHPz9zDQXjrhMyX0ZvVwBFN7B5XpScFTX9MJrw5mAEevehqQKTV5FECbs+lELJTyRqtAptxmgf2vZpOlQI5Ew/bdrYpwGoL9SIhnS7tq0hsdmN6/7tC/X+/4gkND5CACX7fjoNh/Tk54D9jZ9VwAAAAASUVORK5CYII=" x="0px" y="0px" />
+    </pattern>
+    <mask fill="white" id="Clip147">
+      <path d="M 0 9.5  C 0 4.253294944763184  4.253294944763184 0  9.5 0  C 14.746705055236816 0  19 4.253294944763184  19 9.5  C 19 14.746705055236816  14.746705055236816 19  9.5 19  C 4.253294944763184 19  0 14.746705055236816  0 9.5  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g>
+    <path d="M 0 9.5  C 0 4.253294944763184  4.253294944763184 0  9.5 0  C 14.746705055236816 0  19 4.253294944763184  19 9.5  C 19 14.746705055236816  14.746705055236816 19  9.5 19  C 4.253294944763184 19  0 14.746705055236816  0 9.5  Z " fill-rule="nonzero" fill="rgba(255, 255, 255, 0)" stroke="none" class="fill" />
+    <path d="M 0 9.5  C 0 4.253294944763184  4.253294944763184 0  9.5 0  C 14.746705055236816 0  19 4.253294944763184  19 9.5  C 19 14.746705055236816  14.746705055236816 19  9.5 19  C 4.253294944763184 19  0 14.746705055236816  0 9.5  Z " fill-rule="nonzero" fill="url(#BGPattern)" stroke="none" class="background-image" />
+    <path d="M 0 9.5  C 0 4.253294944763184  4.253294944763184 0  9.5 0  C 14.746705055236816 0  19 4.253294944763184  19 9.5  C 19 14.746705055236816  14.746705055236816 19  9.5 19  C 4.253294944763184 19  0 14.746705055236816  0 9.5  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(121, 121, 121, 1)" fill="none" class="stroke" mask="url(#Clip147)" />
+  </g>
+</svg>
