@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Диаграммы Кулинарного Блога</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/index/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.7.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function() {
+        const lineCtxCulinary = document.getElementById('lineChartCulinary').getContext('2d');
+        new Chart(lineCtxCulinary, {
+          type: 'line',
+          data: {
+            labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь'],
+            datasets: [{
+              label: 'Новые рецепты',
+              data: [12, 18, 15, 22, 30, 25],
+              borderColor: '#FF5722',
+              backgroundColor: 'rgba(255, 87, 34, 0.1)',
+              borderWidth: 2,
+              fill: true,
+              tension: 0.3
+            }]
+          },
+          options: {
+            animation: {
+              duration: 2000
+            },
+            responsive: true,
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+
+        const polarCtxCulinary = document.getElementById('polarChartCulinary').getContext('2d');
+        new Chart(polarCtxCulinary, {
+          type: 'polarArea',
+          data: {
+            labels: ['Закуски', 'Основные блюда', 'Десерты', 'Напитки', 'Салаты'],
+            datasets: [{
+              label: 'Категории рецептов',
+              data: [30, 25, 20, 15, 10],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.7)',
+                'rgba(54, 162, 235, 0.7)',
+                'rgba(255, 206, 86, 0.7)',
+                'rgba(75, 192, 192, 0.7)',
+                'rgba(153, 102, 255, 0.7)'
+              ]
+            }]
+          },
+          options: {
+            animation: {
+              duration: 2000
+            },
+            responsive: true
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="content-diagrams">
+      <h2>Диаграммы Кулинарного Блога</h2>
+
+      <h3>Новые рецепты по месяцам</h3>
+      <canvas id="lineChartCulinary" width="400" height="200"></canvas>
+
+      <h3>Распределение категорий рецептов</h3>
+      <canvas id="polarChartCulinary" width="400" height="200"></canvas>
+
+      <button onclick="window.location.href='index.html';">Назад на главную</button>
+    </div>
+  </body>
+</html>
